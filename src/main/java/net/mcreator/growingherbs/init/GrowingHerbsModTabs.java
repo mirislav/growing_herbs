@@ -28,7 +28,10 @@ public class GrowingHerbsModTabs {
 			tabData.accept(GrowingHerbsModItems.ROLLINGPAPERS.get());
 			tabData.accept(GrowingHerbsModItems.WEEDSEEDS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(GrowingHerbsModItems.LIGHTER.get());
 			tabData.accept(GrowingHerbsModItems.BONG.get());
+			tabData.accept(GrowingHerbsModItems.PET.get());
+			tabData.accept(GrowingHerbsModItems.DIRTYPET.get());
 		}
 	}
 }

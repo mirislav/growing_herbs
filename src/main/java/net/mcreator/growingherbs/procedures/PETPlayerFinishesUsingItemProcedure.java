@@ -1,5 +1,7 @@
 package net.mcreator.growingherbs.procedures;
 
+import net.neoforged.neoforge.items.ItemHandlerHelper;
+
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -30,8 +32,8 @@ public class PETPlayerFinishesUsingItemProcedure {
 				}
 			}
 			for (int index0 = 0; index0 < 10; index0++) {
-				world.addParticle(ParticleTypes.FALLING_WATER, x, (y + 1), z, 0, 1, 0);
-				world.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, (y + 1), z, 0, 1, 0);
+				world.addParticle(ParticleTypes.FALLING_WATER, x, (y + 1), z, 0, (-0.5), 0);
+				world.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE, x, (y + 1), z, 0.2, 0.1, 0);
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -48,6 +50,11 @@ public class PETPlayerFinishesUsingItemProcedure {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 360, 3));
 				itemstack.shrink(1);
+				if (entity instanceof Player _player) {
+					ItemStack _setstack = new ItemStack(GrowingHerbsModItems.DIRTYPET.get()).copy();
+					_setstack.setCount(1);
+					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+				}
 			});
 		}
 	}

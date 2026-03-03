@@ -312,6 +312,18 @@
           "src/main/resources/assets/growing_herbs/items/dirtypet.json"
         ]
       }
+    },
+    {
+      "name": "Kyblcleaning",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyblcleaning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/growing_herbs/recipe/kyblcleaning.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

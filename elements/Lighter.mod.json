@@ -11,7 +11,11 @@
     "animations": [],
     "name": "Lighter",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,

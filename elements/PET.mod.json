@@ -11,10 +11,14 @@
     "animations": [],
     "name": "PET",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 64,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -49,15 +53,15 @@
       "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "none",
+    "isAlwaysEdible": true,
+    "animation": "drink",
     "isMusicDisc": false,
     "musicDiscMusic": {
       "value": ""

@@ -21,3 +21,24 @@
 /give Dev growing_herbs:joint
 /give Dev growing_herbs:bong
 /time set day
+/give dev growing_herbs:pet
+/give Dev growing_herbs:bud
+/gamemode survival
+/give Dev growing_herbs:dirtypet
+/give Dev minecraft:brush
+/give dev minecraft:water_bucket
+/gamemode creative
+/effect clear
+/give dev minecraft:water_bucket
+/give dev brush
+/gamemode survival
+/effect clear
+/give Dev brush[
+/give Dev minecraft:brush
+/give Dev minecraft:water_bucket
+/effect clear
+/give Dev minecraft:brush 64
+/gamemode creative
+/time set day
+/gamemode survival
+/gamemode creative

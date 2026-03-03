@@ -233,6 +233,97 @@
           "src/main/java/net/mcreator/growingherbs/item/BongItem.java"
         ]
       }
+    },
+    {
+      "name": "Bongcrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bongcrafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/growing_herbs/recipe/bongcrafting.json",
+          "src/main/resources/data/growing_herbs/advancement/recipes/bongcrafting.json"
+        ]
+      }
+    },
+    {
+      "name": "PETPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pet_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/procedures/PETPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PET",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/item/PETItem.java",
+          "src/main/resources/assets/growing_herbs/models/item/pet.json",
+          "src/main/resources/assets/growing_herbs/items/pet.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirtypet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtypet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/dirtypet.json",
+          "src/main/java/net/mcreator/growingherbs/item/DirtypetItem.java",
+          "src/main/resources/assets/growing_herbs/items/dirtypet.json"
+        ]
+      }
+    },
+    {
+      "name": "Kyblcleaning",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyblcleaning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/growing_herbs/recipe/kyblcleaning.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -248,7 +339,9 @@
       "item.growing_herbs.weedseeds": "Weedseeds",
       "item.growing_herbs.weedplant": "Weedplant",
       "item.growing_herbs.lighter": "Lighter",
-      "item.growing_herbs.bong": "Bong"
+      "item.growing_herbs.bong": "Bong",
+      "item.growing_herbs.pet": "PET",
+      "item.growing_herbs.dirtypet": "Dirtypet"
     }
   },
   "metadata": {
