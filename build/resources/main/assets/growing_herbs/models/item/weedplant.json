@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "growing_herbs:block/image-removebg-preview_4"
+  }
+}

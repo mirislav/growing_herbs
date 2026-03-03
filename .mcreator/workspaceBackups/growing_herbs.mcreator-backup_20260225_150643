@@ -1,0 +1,235 @@
+{
+  "mod_elements": [
+    {
+      "name": "Weed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/weed.json",
+          "src/main/resources/assets/growing_herbs/items/weed.json",
+          "src/main/java/net/mcreator/growingherbs/item/WeedItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rollingpapers",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rollingpapers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/item/RollingpapersItem.java",
+          "src/main/resources/assets/growing_herbs/models/item/rollingpapers.json",
+          "src/main/resources/assets/growing_herbs/items/rollingpapers.json"
+        ]
+      }
+    },
+    {
+      "name": "JointPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/procedures/JointPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Joint",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/joint.json",
+          "src/main/java/net/mcreator/growingherbs/item/JointItem.java",
+          "src/main/resources/assets/growing_herbs/items/joint.json"
+        ]
+      }
+    },
+    {
+      "name": "Bud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/items/bud.json",
+          "src/main/resources/assets/growing_herbs/models/item/bud.json",
+          "src/main/java/net/mcreator/growingherbs/item/BudItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Jointrecepie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jointrecepie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/growing_herbs/advancement/recipes/jointrecepie.json",
+          "src/main/resources/data/growing_herbs/recipe/jointrecepie.json"
+        ]
+      }
+    },
+    {
+      "name": "Weedseeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/weedseeds.json",
+          "src/main/resources/assets/growing_herbs/items/weedseeds.json",
+          "src/main/java/net/mcreator/growingherbs/item/WeedseedsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Weedplant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedplant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/items/weedplant.json",
+          "src/main/java/net/mcreator/growingherbs/block/WeedplantBlock.java",
+          "src/main/resources/assets/growing_herbs/models/block/weedplant.json",
+          "src/main/resources/assets/growing_herbs/blockstates/weedplant.json",
+          "src/main/resources/data/growing_herbs/loot_table/blocks/weedplant.json",
+          "src/main/resources/assets/growing_herbs/models/item/weedplant.json"
+        ]
+      }
+    },
+    {
+      "name": "WeedseedsRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedseeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/procedures/WeedseedsRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Lighter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/lighter.json",
+          "src/main/resources/assets/growing_herbs/items/lighter.json",
+          "src/main/java/net/mcreator/growingherbs/item/LighterItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.growing_herbs.weed": "Weed_Leaves",
+      "item.growing_herbs.rollingpapers": "Rolling_papers",
+      "item.growing_herbs.joint": "Joint",
+      "item.growing_herbs.bud": "Bud",
+      "item.growing_herbs.weedseeds": "Weedseeds",
+      "item.growing_herbs.weedplant": "Weedplant",
+      "item.growing_herbs.lighter": "Lighter"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/growingherbs/init/GrowingHerbsModBlocks.java",
+      "src/main/java/net/mcreator/growingherbs/init/GrowingHerbsModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/growingherbs/GrowingHerbsMod.java",
+      "src/main/java/net/mcreator/growingherbs/init/GrowingHerbsModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "growing_herbs",
+    "modName": "Growing_herbs",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.growingherbs"
+  },
+  "mcreatorVersion": 202600104117
+}

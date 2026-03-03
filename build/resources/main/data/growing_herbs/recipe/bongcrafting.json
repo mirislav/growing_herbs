@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "ba ",
+    "ccc"
+  ],
+  "key": {
+    "a": "minecraft:glass_pane",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:glass"
+  },
+  "result": {
+    "id": "growing_herbs:bong",
+    "count": 1
+  }
+}

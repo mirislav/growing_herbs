@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "growing_herbs:block/image-removebg-preview_4",
+    "particle": "growing_herbs:block/image-removebg-preview_4"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,56 @@
+{
+  "_fv": 83,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Bud"
+      },
+      {
+        "value": "CUSTOM:Rollingpapers"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:Bud"
+      },
+      {
+        "value": "CUSTOM:Bud"
+      },
+      {
+        "value": "CUSTOM:Bud"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Rollingpapers"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Joint"
+    },
+    "name": "jointrecepie",
+    "namespace": "mod"
+  }
+}

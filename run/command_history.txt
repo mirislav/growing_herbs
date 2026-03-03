@@ -1,0 +1,23 @@
+/give Dev growing_herbs:bud
+/give Dev minecraft:water_bucket
+/gamemode survival
+/gamemode creative
+/give Dev growing_herbs:joint
+/give Dev minecraft:water_bucket
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/time set day
+/give dev growing_herbs:bong
+/give Dev growing_herbs:lighter
+/gamemode creative
+/give Dev growing_herbs:joint
+/give Dev minecraft:debug_stick
+/give Dev minecraft:command_block
+/give Dev minecraft:acacia_button
+/give Dev minecraft:item_frame[minecraft:entity_data={id:"minecraft:item_frame:",invisible:1b}]
+/give @p glow_item_frame[entity_data={id:"minecraft:glow_item_frame",Invisible:1b}] 1
+/give Dev growing_herbs:lighter
+/give Dev growing_herbs:joint
+/give Dev growing_herbs:bong
+/time set day
