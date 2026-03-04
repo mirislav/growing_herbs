@@ -28,6 +28,8 @@ public class GrowingHerbsModItems {
 	public static final DeferredItem<Item> BONG;
 	public static final DeferredItem<Item> PET;
 	public static final DeferredItem<Item> DIRTYPET;
+	public static final DeferredItem<Item> COOKIES;
+	public static final DeferredItem<Item> DOUGH;
 	static {
 		WEED = register("weed", WeedItem::new);
 		ROLLINGPAPERS = register("rollingpapers", RollingpapersItem::new);
@@ -39,6 +41,8 @@ public class GrowingHerbsModItems {
 		BONG = register("bong", BongItem::new);
 		PET = register("pet", PETItem::new);
 		DIRTYPET = register("dirtypet", DirtypetItem::new);
+		COOKIES = register("cookies", CookiesItem::new);
+		DOUGH = register("dough", DoughItem::new);
 	}
 
 	// Start of user code block custom items

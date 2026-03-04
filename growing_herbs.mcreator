@@ -314,14 +314,56 @@
       }
     },
     {
-      "name": "Kyblcleaning",
+      "name": "Cookies",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/growingherbs/item/CookiesItem.java",
+          "src/main/resources/assets/growing_herbs/items/cookies.json",
+          "src/main/resources/assets/growing_herbs/models/item/cookies.json"
+        ]
+      }
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/growing_herbs/models/item/dough.json",
+          "src/main/java/net/mcreator/growingherbs/item/DoughItem.java",
+          "src/main/resources/assets/growing_herbs/items/dough.json"
+        ]
+      }
+    },
+    {
+      "name": "Cookiesweed",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kyblcleaning",
+      "registry_name": "cookiesweed",
       "metadata": {
         "files": [
-          "src/main/resources/data/growing_herbs/recipe/kyblcleaning.json"
+          "src/main/resources/data/growing_herbs/recipe/cookiesweed.json",
+          "src/main/resources/data/growing_herbs/advancement/recipes/cookiesweed.json"
+        ]
+      }
+    },
+    {
+      "name": "Cookiesfinal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookiesfinal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/growing_herbs/recipe/cookiesfinal.json",
+          "src/main/resources/data/growing_herbs/advancement/recipes/cookiesfinal.json"
         ]
       }
     }
@@ -340,8 +382,10 @@
       "item.growing_herbs.weedplant": "Weedplant",
       "item.growing_herbs.lighter": "Lighter",
       "item.growing_herbs.bong": "Bong",
-      "item.growing_herbs.pet": "PET",
-      "item.growing_herbs.dirtypet": "Dirtypet"
+      "item.growing_herbs.pet": "kybl",
+      "item.growing_herbs.dirtypet": "Dirtypet",
+      "item.growing_herbs.cookies": "Cookies",
+      "item.growing_herbs.dough": "Dough"
     }
   },
   "metadata": {

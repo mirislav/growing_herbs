@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "bc",
+    " d"
+  ],
+  "key": {
+    "a": "minecraft:sugar",
+    "b": "minecraft:wheat",
+    "c": "growing_herbs:bud",
+    "d": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "growing_herbs:dough",
+    "count": 1
+  }
+}

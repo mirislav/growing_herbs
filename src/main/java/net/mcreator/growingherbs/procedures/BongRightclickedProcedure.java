@@ -20,7 +20,7 @@ public class BongRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (hasEntityInInventory(entity, new ItemStack(GrowingHerbsModItems.LIGHTER.get()))) {
+		if (hasEntityInInventory(entity, new ItemStack(GrowingHerbsModItems.BUD.get())) && hasEntityInInventory(entity, new ItemStack(GrowingHerbsModItems.LIGHTER.get()))) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 300, 1, false, false));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

@@ -5,45 +5,49 @@
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Bud"
+      }
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:Bud"
+      },
+      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Dirtypet"
-      },
-      {
-        "value": "Items.BRUSH"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.WATER_BUCKET"
+        "value": "Items.MILK_BUCKET"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:PET"
+      "value": "CUSTOM:Dough"
     },
-    "name": "kyblcleaning",
+    "name": "cookiesweed",
     "namespace": "mod"
   }
 }
